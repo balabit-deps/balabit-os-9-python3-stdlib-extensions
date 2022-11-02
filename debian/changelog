@@ -1,8 +1,25 @@
-python3-stdlib-extensions (3.10.6-1~22.04) jammy-proposed; urgency=medium
+python3-stdlib-extensions (3.10.8-1~22.04) jammy-proposed; urgency=medium
 
-  * SRU: LP: #1982108: Backport 3.10.6 to 20.04 LTS.
+  * SRU: LP: #1995504: Backport the 3.10.8 release to 22.04 LTS.
 
- -- Matthias Klose <doko@ubuntu.com>  Wed, 10 Aug 2022 13:51:56 +0200
+ -- Matthias Klose <doko@ubuntu.com>  Wed, 02 Nov 2022 16:40:58 +0100
+
+python3-stdlib-extensions (3.10.8-1) unstable; urgency=medium
+
+  * Update 3.10 extensions and modules to the 3.10.8 release.
+  * Update 3.11 extensions and modules to 3.11.0 release.
+  * Remove bytecode files for old 3.9 version. Closes: #1017445.
+  * Bump standards version.
+
+ -- Matthias Klose <doko@debian.org>  Sun, 30 Oct 2022 09:24:07 +0100
+
+python3-stdlib-extensions (3.10.7-1) unstable; urgency=medium
+
+  * Update 3.10 extensions and modules to the 3.10.7 release.
+  * Update 3.11 extensions and modules to 3.11.0 rc2.
+  * Update 3.9 extensions and modules to the 3.9.14 release.
+
+ -- Matthias Klose <doko@debian.org>  Mon, 12 Sep 2022 18:49:43 +0200
 
 python3-stdlib-extensions (3.10.6-1) unstable; urgency=medium
 
